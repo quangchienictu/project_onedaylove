@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nv_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Trang chủ"
+        />
+    <item
+        android:id="@+id/nv_ms"
+        android:icon="@drawable/ic_chat"
+        android:title="Nhắn tin"
+        />
+    <item
+        android:id="@+id/nv_seach"
+        android:icon="@drawable/ic_search"
+        android:title="Tìm kiếm"
+        />
+    <item
+        android:id="@+id/nv_info"
+        android:icon="@drawable/ic_info"
+        android:title="Tài khoản"
+        />
+</menu>

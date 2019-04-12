@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.Toolbar
+        android:background="#cc333232"
+        android:id="@+id/toolbar_back"
+       app:title="Tìm kiếm"
+        app:titleTextColor="#ffff"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+    </android.support.v7.widget.Toolbar>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <EditText
+            android:gravity="center"
+            android:background="@drawable/botron"
+            android:height="50dp"
+            android:id="@+id/timkiem"
+            android:hint="Tìm kiếm"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:layout_marginRight="20dp"
+            android:src="@drawable/tim"
+            android:layout_alignParentRight="true"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+    </RelativeLayout>
+</LinearLayout>
